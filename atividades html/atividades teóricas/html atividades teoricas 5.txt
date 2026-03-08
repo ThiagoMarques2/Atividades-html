@@ -1,0 +1,58 @@
+
+
+1. O que é HTML semântico e qual sua finalidade na construção de páginas web?
+
+HTML semântico é o uso de tags que descrevem o significado do 
+conteúdo da página. Sua finalidade é organizar melhor a estrutura e 
+facilitar a compreensão por navegadores, buscadores e tecnologias 
+assistivas.
+
+2. Qual a principal diferença entre tags semânticas e tags
+genéricas como <div> e <span>?
+
+Tags semânticas indicam o significado do conteúdo 
+(ex: <header>, <article>). Já <div> e <span> são genéricas e não
+ indicam função estrutural.
+
+3. Por que o HTML semântico é importante para a acessibilidade 
+digital?
+
+Porque ajuda leitores de tela e outras tecnologias assistivas a 
+entenderem melhor a estrutura da página.
+
+
+4. Como o HTML semântico contribui para o SEO 
+(Search Engine Optimization)?
+
+Ele ajuda os mecanismos de busca a entenderem melhor o
+ conteúdo e a estrutura da página.
+
+5. Qual é a função da tag <header> em uma página HTML?
+
+Representa o cabeçalho da página ou de uma seção, geralmente
+contendo título, logo ou navegação.
+
+6. A tag <nav> deve ser utilizada em qualquer conjunto de links?
+ Justifique.
+
+Não. Deve ser usada apenas para blocos principais de navegação.
+
+7. Por que a tag <main> deve ser utilizada apenas uma vez na página?
+
+Porque ela representa o conteúdo principal único da página.
+
+8. Explique a diferença entre <section> e <article>.
+
+<section> agrupa conteúdos relacionados. <article> representa
+ um conteúdo independente.
+
+9. Em quais situações é recomendado utilizar a tag <aside>?
+
+Quando o conteúdo é complementar ao principal, como barras
+ laterais ou informações extras.
+
+10. A tag <footer> pode existir mais de uma vez em uma página?
+ Explique.
+
+Sim. Pode existir em diferentes seções ou artigos, 
+além do rodapé da página.

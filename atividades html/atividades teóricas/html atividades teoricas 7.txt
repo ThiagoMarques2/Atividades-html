@@ -1,0 +1,62 @@
+1. O que é o seletor universal no CSS e qual símbolo o representa?**
+
+
+É um seletor que seleciona todos os elementos da página. 
+Ele é representado pelo símbolo ``( * ) .
+
+
+2. Em que situações o seletor universal costuma ser utilizado em 
+um projeto web?
+
+
+Geralmente é usado para aplicar estilos gerais, como remover 
+margens e padding padrão de todos os elementos.
+
+
+
+3. Qual é a principal diferença entre o seletor de tipo e o seletor de 
+classe?
+
+
+O seletor de tipo estiliza todas as tags de um tipo específico.
+Já o seletor de classe estiliza elementos que possuem uma
+ classe específica.
+
+
+
+4. O seletor de tipo afeta quantos elementos da página? Explique.
+
+
+Afeta todos os elementos daquele tipo presentes na página.
+
+
+5. Por que o seletor de classe é considerado mais flexível que
+ o seletor de ID?
+
+
+Porque pode ser usado em vários elementos diferentes, 
+enquanto o ID deve ser único.
+
+
+
+6. Qual símbolo é utilizado para representar um seletor de classe 
+no CSS?
+
+
+O símbolo ( . ).
+
+
+7. Qual símbolo é utilizado para representar um seletor de ID 
+no CSS?
+
+
+O símbolo (#).
+
+
+
+8. Por que o atributo id não deve ser repetido em vários elementos 
+da mesma página?
+
+
+Porque o ID deve ser único, servindo para identificar apenas um 
+elemento específico..

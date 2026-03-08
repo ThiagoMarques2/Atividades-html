@@ -1,0 +1,55 @@
+1. analise a importância da separação entre conteúdo visivel (body)
+e metadados (head) na estrutura de um documento html bem
+organizado
+
+
+separação entre conteúdo visível (<body>) e metadados (<head>) é fundamental para um HTML organizado.
+
+Importância:
+
+Clareza estrutural: distingue o que será exibido ao usuário do 
+que serve apenas para o navegador ou SEO.
+
+Manutenção: facilita atualizar estilos, scripts ou informações da
+ página sem alterar o conteúdo visível.
+
+Desempenho e compatibilidade: o navegador processa metadados 
+antes de renderizar o corpo, garantindo carregamento correto
+ e consistente
+
+
+2. explique como o uso adequado das tags semânticas básicas 
+como h1, p e listas contribui para acessibilidade e interpretação 
+de conteudo por navegadores e leitores de tela
+
+Acessibilidade: leitores de tela interpretam títulos, parágrafos e
+ listas, permitindo navegação eficiente para pessoas com 
+deficiência visual.
+
+Interpretação por navegadores: mecanismos de busca e
+ ferramentas de indexação compreendem melhor a estrutura e 
+relevância do conteúdo.
+
+Legibilidade e manutenção: código mais organizado, fácil de 
+entender e atualizar
+
+3. discuta as boas práticas da utilização das tags <img> e <a>
+em paginas web considerando usabilidade, acessibilidade e 
+experiência de usuário 
+
+Boas práticas para <img> e <a> melhoram usabilidade,
+ acessibilidade e experiência do usuário.
+
+Para <img>: sempre usar alt para descrever a imagem para 
+leitores de tela e quando a imagem não carrega; definir src
+ corretamente para garantir que a imagem seja exibida; usar
+ tamanho adequado para evitar lentidão no carregamento e 
+melhorar a experiência em dispositivos móveis; e garantir que a 
+imagem tenha contexto relevante, complementando o conteúdo.
+
+Para <a>: usar href válido para que o link funcione e leve ao destino
+ correto; usar texto descritivo que indique claramente o propósito 
+do link; abrir links externos com cuidado, usando target="_blank" 
+apenas quando necessário e informando o usuário; e garantir
+ acessibilidade, permitindo que links sejam facilmente 
+identificados e navegados com teclado ou leitores de tela.

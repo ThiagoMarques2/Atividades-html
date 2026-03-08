@@ -1,0 +1,40 @@
+1. descreva a função da tag <p> e explique quando ela deve ser 
+utilizada em uma página html
+
+A tag <p> define um parágrafo de texto em HTML.Quando usar:
+
+Sempre que houver texto contínuo ou explicativo.
+
+2. diferencie o uso das tas <br> e <p> quanto a organização textual
+de uma pagina web
+
+a tag p cria um novo parágrafo e a tag br apenas insere uma quebra 
+de linha
+
+
+3. explique a finalidade da tag <hr> e em quais contextos ela pode
+ser utilizada na estrutura visual do conteúdo 
+
+a tag <hr> insere uma linha horizontal para separar seções ou 
+tópicos, melhorando a organização e legibilidade do conteúdo.
+
+4. descreva o funcionamento dos comentários em html utilizando
+a tag <!-- --> e sua importância para a manutenção do código 
+
+Em HTML, <!-- --> cria comentários invisíveis, usados para
+ explicações ou lembretes, facilitando a manutenção e 
+compreensão do código
+
+5. diferencie listas ordenadas e não ordenadas em html destacando
+as tags <ol> e <ul>
+
+
+Em HTML:
+
+<ol> (lista ordenada) → itens numerados ou com sequência lógica.
+
+<ul> (lista não ordenada) → itens marcados com bolinhas ou
+ símbolos, sem ordem específica.
+
+Resumo: <ol> organiza itens com ordem, <ul> organiza itens 
+sem ordem, ambos usando <li> para cada elemento da lista.

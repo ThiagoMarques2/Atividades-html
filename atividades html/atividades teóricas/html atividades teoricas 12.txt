@@ -1,0 +1,75 @@
+
+1. De que forma os seletores de atributo podem melhorar a 
+acessibilidade de uma página web?
+
+
+Permitem estilizar elementos com atributos importantes como alt, 
+title ou aria.
+
+
+2. Qual a vantagem de usar seletores de atributo em vez de classes 
+extras no HTML?
+
+
+Evita adicionar classes desnecessárias, usando informações já 
+existentes no HTML.
+
+
+3. Quais cuidados devem ser tomados ao usar seletores de 
+atributo em relação à performance?
+
+
+Evitar uso excessivo, pois podem ser um pouco mais lentos que classes ou IDs.
+
+
+4. Como os seletores de atributo se comportam com valores que 
+contêm espaços ou caracteres especiais?
+
+
+O valor deve ser colocado entre aspas.
+
+
+5. É possível combinar múltiplos seletores de atributo em uma 
+mesma regra CSS? Como?
+
+
+Sim. Basta colocar mais de um seletor no mesmo elemento.
+Exemplo: input[type="text"][required].
+
+
+6. Como você selecionaria inputs que são ao mesmo tempo do 
+tipo texto e obrigatórios?
+
+
+input[type="text"][required].
+
+
+7. De que forma os seletores de atributo podem ser usados para
+ estilizar diferentes estados de links?
+
+
+Selecionando links com atributos específicos como href, target ou
+ download.
+
+
+8. Como selecionar elementos que possuem um atributo, mas com 
+um valor específico ignorando maiúsculas/minúsculas?
+
+
+Usando o modificador i.
+Exemplo: [attr="valor" i].
+
+
+9. Qual a diferença de especificidade entre um seletor de atributo e 
+um seletor de classe?
+
+
+Eles possuem a mesma especificidade.
+
+
+10. Como os seletores de atributo podem ser úteis em formulários
+para estilizar campos com validação?
+
+
+Permitem estilizar campos com atributos como required, type ou
+ pattern.

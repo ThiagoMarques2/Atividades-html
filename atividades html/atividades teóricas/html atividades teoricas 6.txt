@@ -1,0 +1,84 @@
+
+1. Qual a importância da hierarquia de títulos (<h1> a <h6>) no 
+HTML semântico?
+
+
+Ela organiza o conteúdo e facilita a leitura, navegação e 
+compreensão por buscadores e leitores de tela.
+
+
+
+2. É correto utilizar uma tag <section> sem título? Por quê?
+
+
+Não é recomendado, porque o título identifica o conteúdo da 
+seção.
+
+
+
+3. Um <article> deve possuir conteúdo independente? 
+Explique o conceito.
+
+
+Sim. Ele representa um conteúdo que pode existir de forma
+ independente, como uma notícia ou postagem.
+
+
+
+4. Quais os impactos negativos de estruturar um site apenas 
+com <div>?
+
+
+Prejudica a acessibilidade, o SEO e a organização do código.
+
+
+
+5. O uso de HTML semântico altera diretamente o design 
+visual da página?
+
+
+Não. O design visual é controlado pelo CSS.
+
+
+
+6. Como leitores de tela se beneficiam do uso de tags semânticas?
+
+
+Eles usam as tags para entender a estrutura da página e 
+facilitar a navegação.
+
+
+
+7. Qual a função estrutural da tag <main> dentro do documento
+ HTML5?
+
+
+Identificar o conteúdo principal da página.
+
+
+
+8. Explique o conceito de significado estrutural no HTML 
+semântico.
+
+
+É quando as tags indicam o papel e a função do conteúdo na 
+estrutura da página.
+
+
+
+9. Qual a diferença entre <header> da página e <header> de um 
+<article>?
+
+
+O <header> da página é geral do site; o do <article> pertence 
+apenas àquele conteúdo.
+
+
+
+10. Por que o HTML semântico é considerado uma boa prática
+ no desenvolvimento web moderno?
+
+
+Porque melhora organização, acessibilidade, SEO e
+ manutenção do código.
+.

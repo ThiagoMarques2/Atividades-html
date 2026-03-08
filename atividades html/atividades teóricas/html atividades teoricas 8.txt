@@ -1,0 +1,55 @@
+
+1. Qual seletor possui maior especificidade: classe ou ID? Explique.
+
+
+O ID possui maior especificidade porque identifica um único
+ elemento.
+
+
+
+2. Quando é mais indicado usar classe ao invés de ID?
+
+
+Quando o mesmo estilo precisa ser aplicado em vários elementos.
+
+
+
+3. O que acontece se dois elementos tiverem o mesmo ID na 
+página?
+
+
+Pode causar conflitos no CSS e JavaScript, pois o ID deveria
+ ser único.
+
+
+
+4.É necessário “chamar” o seletor universal no HTML? Justifique 
+sua resposta.
+
+
+Não. Ele é usado apenas no **CSS**, não precisa aparecer no HTML.
+
+
+
+5. Se você quiser estilizar todos os parágrafos de uma página,
+qual seletor deve utilizar?
+
+
+O seletor de tipo: p
+
+
+
+6. Em projetos modernos, por que as classes são mais utilizadas 
+que os IDs para estilização?
+
+
+Porque são mais reutilizáveis e flexíveis.
+
+
+
+7. Explique com suas palavras a diferença entre estrutura (HTML) e
+ estilização (CSS) utilizando os seletores como exemplo.
+
+
+O HTML define a estrutura e o conteúdo da página. O CSS usa 
+seletores para escolher elementos do HTML e aplicar estilos visuais.

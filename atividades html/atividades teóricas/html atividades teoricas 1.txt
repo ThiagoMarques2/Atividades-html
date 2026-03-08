@@ -1,0 +1,52 @@
+1. explique a função da declaração <!DOCTYPE html> em um 
+documento html e sua importância para a renderização nos
+navegadores atuais
+
+A declaração <!DOCTYPE html> informa ao navegador que o
+ documento usa HTML5 e deve ser renderizado no modo padrão
+
+
+2.descreva o papel da tag html na estrutura da pagina web e sua
+relação com as demais tags do documento. diferencie as funções 
+das tags head e body em um documento html
+
+
+A tag <html> é a raiz do documento HTML, englobando todo o 
+conteúdo da página.
+
+<head>: contém metadados, título, links para CSS/JS e
+ informações para o navegador, não exibidas na tela.
+
+<body>: contém todo o conteúdo visível e interativo da página,
+ como textos, imagens e botões
+
+
+3. explique a finalidade da tag <title> e onde ela é exibida no
+navegador
+
+A tag <title>, dentro do <head>, define o título da página. 
+Ele aparece na aba do navegador, nos favoritos e nos resultados
+ de busca, ajudando na identificação e navegação da página
+
+
+
+4. analise a hierarquia semântica das tags h1 a h6 e sua importância 
+para a organização do conteúdo e seo
+
+
+As tags <h1> a <h6> criam uma hierarquia semântica de 
+cabeçalhos:
+
+<h1> → título principal da página (apenas um por página).
+
+<h2> a <h6> → subdivisões, com importância decrescente.
+
+Importância:
+
+Organiza o conteúdo de forma lógica.
+
+Melhora acessibilidade, permitindo que leitores de tela naveguem 
+pelo texto.
+
+Auxilia SEO, ajudando mecanismos de busca a entenderem a
+ estrutura e relevância das informações.

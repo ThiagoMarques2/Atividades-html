@@ -1,0 +1,68 @@
+1.Explique a diferença estrutural entre o seletor descendente e o 
+seletor filho.
+
+
+O seletor descendente seleciona elementos dentro de outro em
+ qualquer nível. O seletor filho (>) seleciona apenas elementos 
+filhos diretos.
+
+
+
+2. Em quais situações o seletor descendente pode gerar efeitos
+ colaterais indesejados na estilização?
+
+
+Quando ele aplica estilos em elementos mais profundos da
+ estrutura que não deveriam receber aquele estilo.
+
+
+
+3. Por que o seletor filho (>) é considerado mais restritivo que o
+ seletor descendente?
+
+
+Porque ele seleciona apenas filhos diretos, não elementos mais 
+internos.
+
+
+
+4. Explique o funcionamento do seletor irmão adjacente (+) e sua 
+principal limitação.
+
+
+Ele seleciona o elemento imediatamente após outro, desde que 
+sejam irmãos. A limitação é que funciona apenas com o próximo 
+elemento.
+
+
+
+5. Diferencie o seletor irmão adjacente (+) do seletor irmão geral (~).
+
+
+O + seleciona apenas o próximo irmão. O ~ seleciona todos os 
+irmãos seguintes.
+
+
+
+6. Descreva um cenário onde div p e div > p produzem resultados
+ diferentes.
+
+
+Se um <p> estiver dentro de outro elemento dentro da div, div p seleciona ele, mas div > p não.
+
+
+
+7. O seletor + funciona se houver outro elemento entre os dois 
+selecionados?
+
+
+Não. Ele só funciona se o elemento vier imediatamente depois.
+
+
+
+8. Justifique. O seletor ~ exige que os elementos sejam irmãos
+ diretos? Explique.
+
+
+Sim. Eles precisam ter o mesmo elemento pai, mas podem ter
+ outros elementos entre eles.

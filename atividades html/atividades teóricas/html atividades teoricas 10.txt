@@ -1,0 +1,59 @@
+
+1. Analise o seletor section > article p e explique seu 
+comportamento.
+
+
+Seleciona todos os <p> que estão dentro de <article> que são 
+filhos diretos de <section>.
+
+
+
+2. Por que o seletor irmão geral pode afetar múltiplos elementos
+ ao mesmo tempo?
+
+
+Porque ele seleciona todos os irmãos seguintes, não apenas um.
+
+
+
+3. Qual seletor é mais adequado para selecionar apenas elementos
+ filhos diretos? Justifique.
+
+
+O seletor filho (>), pois seleciona somente elementos diretamente
+ dentro do pai.
+
+
+
+4. O que acontece quando usamos h2 + p em um documento 
+HTML?
+
+
+Seleciona o primeiro <p> que vem imediatamente depois de um
+ <h2>.
+
+
+
+5. Como a profundidade da árvore DOM influencia o seletor 
+descendente?
+
+
+Ele continua selecionando elementos mesmo que estejam vários 
+níveis abaixo na estrutura.
+
+
+
+6. É possível combinar seletor filho com seletor irmão adjacente? 
+Explique conceitualmente.
+
+
+Sim. Pode-se selecionar um filho direto e depois aplicar uma
+regra ao elemento imediatamente seguinte.
+
+
+7. Em termos de organização de código, quando é mais indicado 
+utilizar o seletor filho em vez do descendente?
+
+
+Quando se quer mais controle e precisão, evitando que estilos 
+afetem elementos internos indesejados.

@@ -1,0 +1,75 @@
+
+1. O que é um seletor de atributo em CSS e qual sua principal 
+utilidade?
+
+
+É um seletor que estiliza elementos com base em atributos do HTML.
+
+
+2. Explique o funcionamento do seletor [attr] (atributo presente). 
+Em quais situações ele é mais útil
+
+
+Seleciona elementos que possuem determinado atributo, 
+independente do valor. É útil quando se quer estilizar qualquer 
+elemento que tenha aquele atributo.
+
+
+3. Descreva como funciona o seletor [attr="valor"] (valor exato) e
+ dê exemplos de uso prático.
+
+
+Seleciona elementos cujo atributo tem exatamente aquele valor. 
+Exemplo: input[type="text"].
+
+
+4. Qual a diferença entre os seletores [attr="valor"] e [attr*="valor"]?
+
+
+[attr="valor"] exige valor exato.
+[attr*="valor"] seleciona quando o valor contém aquela palavra.
+
+
+5. Como o seletor [attr^="valor"] (começa com) funciona? 
+Cite cenários onde ele seria a melhor escolha.
+
+
+Seleciona elementos cujo valor começa com aquele texto.
+ Ex: links que começam com https.
+
+
+6. Explique o funcionamento do seletor [attr$="valor"] 
+(termina com).
+
+
+Seleciona elementos cujo valor termina com aquele texto.
+
+
+7. Em que tipo de situação é mais adequado usar [attr*="valor"] 
+(contém) comparado aos seletores de prefixo e sufixo?
+
+
+Quando o texto pode aparecer em qualquer parte do valor do atributo.
+
+
+8. O que é o seletor [attr~="valor"] (lista de valores) e como ele 
+difere do seletor [attr="valor"]?
+
+
+Seleciona um valor dentro de uma lista separada por espaços. 
+Já [attr="valor"] exige valor exato.
+
+
+9. Explique o seletor [attr|="valor"] (com hífen) e dê exemplos de 
+quando utilizá-lo.
+
+
+Seleciona valores que são iguais ou começam com aquele valor
+ seguido de hífen. Muito usado em idiomas, como lang="pt-BR".
+
+
+10. Como você selecionaria todos os links externos 
+(que começam com http ou https) usando seletores de atributo?
+
+
+Usando: a[href^="http"].

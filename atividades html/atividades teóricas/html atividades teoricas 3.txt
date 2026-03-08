@@ -1,0 +1,51 @@
+1. explique a tag <li> e sua dependência estrutural em relação 
+as tags de listas
+
+<li> define os itens de uma lista e só funciona corretamente 
+dentro de <ul> ou <ol>
+
+2. descreva a finalidade da tag <a> e o papel do atributo
+href na navegação de paginas
+
+<a> cria links; href indica para onde o link leva, 
+possibilitando a navegação na web.
+
+3. explique a função da tag <img> e a importância dos atributos
+src e alt para acessibilidade e usabilidade 
+
+<img> mostra imagens; src indica o arquivo e alt garante
+ acessibilidade e compreensão do conteúdo servindo como texto
+alternativo quando a imagem não carrega e facilitando leitores de
+pagina a saber sobre o que a imagem é.
+
+4. analise a importância da estrutura basica de um documento
+html bem formado para compatibilidade com navegadores
+
+Uma estrutura HTML bem formada é essencial para que os navegadores interpretem e exibam a página corretamente.
+
+Importância:
+
+Garante que todos os elementos estejam no lugar certo
+ (<!DOCTYPE>, <html>, <head>, <body>).
+
+Evita problemas de renderização inconsistentes entre
+ navegadores.
+
+Facilita acessibilidade, manutenção e SEO, pois a hierarquia 
+semântica fica clara
+
+
+5. explique como as tags estruturais e semanticas contribuem
+para a organização, legibilidade e manutenção do codigo html
+
+
+Organização: delimitam seções do conteúdo, facilitando a 
+compreensão da página.
+
+Legibilidade: permitem que desenvolvedores identifiquem r
+apidamente a função de cada bloco.
+
+Manutenção: código mais fácil de atualizar, revisar ou expandir.
+
+Acessibilidade e SEO: leitores de tela e mecanismos de busca 
+entendem melhor a estrutura e relevância do conteúdo.
