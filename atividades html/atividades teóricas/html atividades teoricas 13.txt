@@ -1,0 +1,39 @@
+1. um seletor de atributo em css é um seletor que permite selecionar elementos html que possuem um determinado atributo, podendo também especificar o valor dele. ele é bastante útil quando o dev quer selecionar vários elementos com o mesmo atributo
+
+
+2.O seletor de atributo presente, representado por [attr], é um seletor CSS que permite selecionar elementos HTML que possuem um determinado atributo, independentemente do valor que esse atributo tenha. Este seletor não se importa com o valor em si, apenas com a presença do atributo no elemento. É particularmente útil para estilizar elementos que possuem atributos booleanos, como disabled, checked, required, readonly, entre outros, onde a simples presença do atributo já indica um estado especial do elemento.
+
+
+3.O seletor de atributo com valor exato, representado por [attr="valor"], permite selecionar elementos HTML cujo atributo especificado tenha exatamente o valor indicado entre aspas. Por exemplo, a regra CSS [type="text"] { border: 1px solid blue; } vai aplicar a borda azul apenas em inputs do tipo texto, ignorando inputs do tipo password, email, radio, etc. 
+
+
+
+4.No [attr="valor"] o atributo selecionado precisa ter exatamente o que está entre as aspas. já no [attr*="valor"] desde que o atributo selecionado contenha o valor especificado no css ele será selecionado mesmo se houver mais elementos 
+
+
+5.um exemplo do funcionamento do [attr^="valor"] onde ele poderia ser uma boa escolha seria:
+
+[href^="https"] {font-family:"arial","bold"}
+
+nesse cenário ele pegaria todos os links que iniciam com "https" estilizando todos esses links. Este seletor é bastante utilizado para agrupar elementos que seguem um padrão de nomenclatura ou que compartilham um prefixo comum em seus valores de atributo.
+
+
+6.o seletor [attr$="valor"] busca o atributo selecionado que tem o valor terminado pelo mesmo selecionado, Exemplo:
+
+[href=".pdf"] {color: pink}
+
+neste exemplo todos os links que são terminados em ".pdf" são pintados de rosa pelo css. isso é particularmente útil em sites que gerenciam muitos downloads ou conteúdo gerado dinamicamente.
+
+
+7.o seletor [attr*="valor"] é um seletor muito mais abrangente do que os seletores de prefixo [attr^="valor"] e o seletor de sufixo [attr$="valor]pois pra ele não importa aonde o valor está inserido desde que ele exista dentro do atributo.
+
+
+8.O seletor [attr*="valor"] só precisa conter o valor selecionado, funcionaria mesmo independete do resto do valor. O seletor [attr~="valor"] busca dentro do valor a palavra exata delimitada por espaço.
+
+
+9.O seletor [attr|="valor"] busca o valor exato especificado nas aspas ou o valor exato seguida de um hífen. Exemplo:
+
+ p[lang|="en"] {color: blue;}
+
+
+10.[href^="https"]
