@@ -1,0 +1,35 @@
+1.Os seletores de atributo no CSS melhoram a acessibilidade porque permitem aplicar estilos a elementos com base em atributos como required, disabled ou aria. Isso ajuda a destacar informações importantes, indicar estados dos elementos e tornar a interface mais clara para os usuários e para tecnologias assistivas.
+
+ 
+2.A vantagem de usar seletores de atributo é que eles permitem aplicar estilos com base em atributos que o elemento já possui, sem precisar adicionar classes extras no HTML. Isso deixa o código mais limpo, organizado e fácil de manter.
+
+
+3.Evitar uso excessivo, pois eles podem ser mais lentos que seletores simples (como classes).
+
+Ser específico nos seletores, para não obrigar o navegador a verificar muitos elementos.
+
+Usar quando realmente necessário, para não deixar o CSS pesado.
+
+
+4.Os seletores de atributo funcionam normalmente com valores que têm espaços ou caracteres especiais, mas nesses casos o valor deve ser colocado entre aspas.
+
+
+5.sim.Isso é feito colocando mais de um seletor de atributo no mesmo elemento, um após o outro.
+
+ 
+6.combinando dois seletores de atributo na mesma regra. Exemplo:
+
+input[type="text"][required] 
+
+
+
+7. [href^="https"]:hover {color= "pink"}
+
+
+8.No CSS, você pode usar seletor de atributo com a flag i (ignore case). 
+
+
+9.Qual a diferença de especificidade entre um seletor de atributo e um seletor de classe?
+
+
+10.Como os seletores de atributo podem ser úteis em formulários para estilizar campos com validação?
