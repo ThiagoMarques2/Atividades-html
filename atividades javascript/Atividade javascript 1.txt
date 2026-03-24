@@ -1,0 +1,47 @@
+1.strings são textos. Aspas simples e duplas fazem a mesma coisa, A escolha entre elas é questão de estilo ou de conveniência. Já os template literals são strings mais poderosas que permitem inserir variáveis ou expressões no javascript diretamente na string usando a sintaxe ${variavel};
+
+2. strings são consideradas imutáveis porque uma vez criadas seu valor não pode ser alterado.O autoboxing é um mecanismo automático onde tipos primitivos são temporariamente convertidos em objetos quando você tenta acessar propriedades ou métodos neles.Como primitivos não possuem métodos próprios, o motor JS realiza esse boxing para permitir a manipulação de dados de forma conveniente. 
+
+3. function Funcao(str) {
+	return str.split('').reverse().join('');
+
+	}
+
+	console.log(Funcao("string"));
+
+4. function Funcao(str) {
+	const reverso = str.split('').reverse().join('');
+	
+	return reverso === str;
+}
+
+
+' console.log(Funcao("teste"));
+
+
+5. O JavaScript representa números internamente utilizando o padrão IEEE 754 de ponto flutuante de precisão dupla (64 bits). 
+
+
+6. No padrão IEEE 754 diferentemente de outras linguagens que diferenciam inteiros (integers) de números decimais (floats), o JavaScript trata todos os números como valores decimais de 64 bits.
+
+
+7. NaN (not a number) significa que o valor não é um numero e infinity é usado quando o numero excede o limite máximo representável ou se divide por zero. Numero.isNaN(valor)
+
+
+8. function Funcao(nmr1,nmr2) {
+	let nmr1 = number
+	let nmr2 = number
+	let resultado = (nmr1 * 10 + nmr2 * 10)/10;
+
+	return resultado;
+}
+
+  console.log(Funcao(0.5,0.7));
+
+
+9.function NumeroAleatorio(min, max) {
+  	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+
+console.log(gerarNumeroAleatorio(1, 10)); 

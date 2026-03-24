@@ -1,0 +1,56 @@
+1.O BigInt é um tipo de dado primitivo no JavaScript, introduzido para representar números inteiros com precisão arbitrária. Enquanto o tipo Number padrão é limitado em tamanho, o BigInt pode armazenar inteiros muito maiores, sendo ideal para cálculos de alta precisão ou manipulação de IDs longos
+
+
+2. é impossível realizar operações entre big int e number diretamente já que big int não se mistura com outros tipos. big int também podem perder precisao ao serem convertidos em number devido ao fato de number não conseguir representar com exatidão números inteiros muito grandes, não tem compatibilidade com math e json não suporta big int nativamente
+
+
+3. Função Fatorial(nmr) {
+	let num= BigInt(nmr);
+
+	if (num < 0n) return undefined;
+	if (num === 0n || num === 1n) return 1n;
+
+	let resultado = 1n;
+	
+	for (let i = 2n; i <= num; i++) {
+		resultado *= i;
+}
+
+
+	return resultado;
+}
+
+const numero = 50;
+const resultado = Fatorial(numero)
+
+console.log(`${numero}! = ${resultado.toString()}`);
+
+
+4. opção 1 (números grandes):
+
+
+function somarNumerosGrandes(a, b) {
+    const bigA = BigInt(a);
+  const bigB = BigInt(b);
+  return bigA + bigB;
+}
+
+console.log(somarNumerosGrandes(10, 20n)); // 30n
+console.log(somarNumerosGrandes(9007199254740991n, 2)); // 9007199254740993n
+
+
+opção 2 (com decimais e big int):
+
+
+function somarTudo(a, b) {
+    return Number(a) + Number(b);
+}
+
+console.log(somarTudo(10.5, 20n)); // 30.5
+console.log(somarTudo(10, 20));     // 30
+
+
+5. truthy e falsy são conceitos onde valores não booleanos são avaliados como true ou false em contextos condicionais como if ou while.
+
+
+6.
